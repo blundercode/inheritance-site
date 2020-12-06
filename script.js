@@ -1,3 +1,3 @@
-! function () {
-    "use strict";
-}();
+function routeHome() {
+    window.location.href = './';
+}

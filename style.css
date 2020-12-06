@@ -11,39 +11,35 @@ a:link {
 
 /* visited link */
 a:visited {
-  color: #008aa9;
+  color: #b5595e;
 }
 
 /* mouse over link */
 a:hover {
-  color: #6c9299;
+  color: white;
 }
 
 /* selected link */
 a:active {
-  color: blue;
+  color: grey;
 }
 
 .container > img {
   width: 250px;
 }
 
-.underline {
-  background-size: 1px 1em;
-  box-shadow: inset 0 -0.175em #f8c0c0, inset 0 -0.2em #000;
-  display: inline;
-}
-
 .title-header {
   font-size: 80px;
   font-weight: 500;
   text-align: center;
+  cursor: pointer;
 }
 
 .title-subhead {
   font-size: 60px;
   font-weight: 300;
   text-align: center;
+  cursor: pointer;
 }
 
 @media screen and (max-width: 480px) {
@@ -89,10 +85,51 @@ a:active {
 }
 
 .options-row {
-    margin-top: 13%;
+    margin-top: 23%;
     text-align: center;
-    font-size: 55px;
+    font-size: 45px;
     font-weight: 500;
     text-align: center;
 
+}
+.home-link {
+
+}
+
+.underline-container { 
+  /* margin: 150px auto 0; 
+  padding: 0; 
+  list-style: none; 
+  display: table;
+  width: 600px;
+  text-align: center; */
+}
+.underline-animation { 
+  /* display: table-cell; 
+  position: relative; 
+  padding: 15px 0; */
+}
+.underline {
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  letter-spacing: 0.05em;
+  display: inline-block;
+  position: relative;
+}
+.underline:after {    
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #fff;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.underline:hover:after { 
+  width: 100%; 
+  left: 0; 
 }
