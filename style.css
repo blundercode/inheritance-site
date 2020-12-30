@@ -84,8 +84,17 @@ a:active {
   margin: 0 auto;
 }
 
-.options-row {
+.options-row-home {
   margin-top: 23%;
+  text-align: center;
+  font-size: 45px;
+  font-weight: 500;
+  text-align: center;
+
+}
+
+.options-row {
+  margin-top: 5%;
   text-align: center;
   font-size: 45px;
   font-weight: 500;
@@ -117,6 +126,7 @@ a:active {
   letter-spacing: 0.05em;
   display: inline-block;
   position: relative;
+  
 }
 
 .underline:after {
@@ -132,6 +142,35 @@ a:active {
   width: 0;
 }
 
+.selected-underline:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.selected-underline {
+  color: #b5595e !important;
+  text-transform: uppercase;
+  text-decoration: none !important;
+  letter-spacing: 0.05em;
+  display: inline-block;
+  position: relative;
+}
+
+.selected-underline:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 50%;
+  position: absolute;
+  background: #b5595e;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+  width: 100%;
+  left: 0;
+}
+
 .underline:hover:after {
   width: 100%;
   left: 0;
@@ -142,3 +181,21 @@ a:active {
   font-size: 30px;
   font-weight: 400;
 }
+
+.circle {
+  width: 50%;
+  clip-path: circle(50% at 50% 50%);
+}
+
+.profile-name {
+  font-size: 30px;
+}
+
+.profile-title {
+  font-size: 20px;
+}
+
+.profile-social {
+  font-size: 25px;
+}
+
