@@ -231,3 +231,8 @@ a:active {
 .gfg-background {
   background-color: #081851;
 }
+.overflow-text {
+  display: inline-block;
+  word-break: break-word;
+  overflow-wrap: anywhere;
+}
