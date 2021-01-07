@@ -1,7 +1,12 @@
+html { height: 100%; }
+
 body {
   font-family: "Montserrat", sans-serif;
   background-color: white;
   color: #b5595e;
+  min-height:100%; 
+  position:relative; 
+  padding-bottom: 10px;
 }
 
 /* unvisited link */
@@ -208,3 +213,21 @@ a:active {
   margin-bottom:30px
 }
 
+.gfg-stamp{
+  bottom: 10px;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+    font-weight: bolder;
+}
+.granger {
+  color:#FFDF2B
+}
+.film-group {
+  color:#BD1707
+}
+.gfg-background {
+  background-color: #081851;
+}
