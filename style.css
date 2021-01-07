@@ -1,7 +1,7 @@
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: #f8c0c0;
-  color: white;
+  background-color: white;
+  color: #b5595e;
 }
 
 /* unvisited link */
@@ -16,7 +16,7 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-  color: white;
+  color: #323232;
 }
 
 /* selected link */
@@ -30,14 +30,14 @@ a:active {
 
 .title-header {
   font-size: 80px;
-  font-weight: 500;
+  font-weight: bold;
   text-align: center;
   cursor: pointer;
 }
 
 .title-subhead {
-  font-size: 60px;
-  font-weight: 300;
+  font-size: 50px;
+  font-weight: 400;
   text-align: center;
   cursor: pointer;
 }
@@ -52,13 +52,18 @@ a:active {
 
   .title-header {
     font-size: 50px;
-    font-weight: 500;
+    font-weight: bold;
+  }
+
+  .options-row {
+    font-size: 30px;
+    margin-bottom: 40px;
   }
 
   .title-subhead {
-    font-size: 40px;
-    font-weight: 300;
-    margin-top: 5px;
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 5px !important;
   }
 
   canvas {
@@ -96,7 +101,7 @@ a:active {
 .options-row {
   margin-top: 5%;
   text-align: center;
-  font-size: 45px;
+  font-size: 35px;
   font-weight: 500;
   text-align: center;
 
@@ -137,7 +142,7 @@ a:active {
   height: 2px;
   left: 50%;
   position: absolute;
-  background: #fff;
+  background: #323232;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
 }
@@ -148,7 +153,7 @@ a:active {
 }
 
 .selected-underline {
-  color: #b5595e !important;
+  color: #323232 !important;
   text-transform: uppercase;
   text-decoration: none !important;
   letter-spacing: 0.05em;
@@ -164,7 +169,7 @@ a:active {
   height: 2px;
   left: 50%;
   position: absolute;
-  background: #b5595e;
+  background: #323232;
   transition: width 0.3s ease 0s, left 0.3s ease 0s;
   width: 0;
   width: 100%;
@@ -197,5 +202,9 @@ a:active {
 
 .profile-social {
   font-size: 25px;
+}
+
+.profile-col {
+  margin-bottom:30px
 }
 
