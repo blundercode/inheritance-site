@@ -194,6 +194,8 @@ a:active {
 
 .gfg-background {
   background-color: #081851;
+  border-radius: 5px;
+  padding:2px
 }
 
 .overflow-text {
